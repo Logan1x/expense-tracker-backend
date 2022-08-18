@@ -1,0 +1,13 @@
+POST http://localhost:7000/transactions
+Content-Type: application/json
+
+{
+    "expenseName" : "Investment",
+    "expenseAmount" : 2000
+}
+
+###
+GET http://localhost:7000/transactions
+
+###
+DELETE http://localhost:7000/transactions/62fdcb20ecad5f0dd030bc5c
